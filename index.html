@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFD700" />
+  <title>Xavi Papas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Xavi Papas</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>¡Bienvenido a Xavi Papas!</h2>
+      <p>Deliciosas papas y más. ¡Explora nuestros productos!</p>
+      <div class="productos-destacados" id="destacados"></div>
+    </section>
+
+    <section id="productos">
+      <h2>Inventario</h2>
+      <button onclick="agregarProducto()">Agregar Producto</button>
+      <div id="lista-productos"></div>
+    </section>
+
+    <section id="servicios">
+      <h2>Registro y Fiados</h2>
+      <button onclick="registrarOrden()">Registrar Orden</button>
+      <button onclick="verFiados()">Ver Fiados</button>
+      <div id="control-fiados"></div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Escríbenos por WhatsApp:</p>
+      <a href="https://wa.me/593999999999" target="_blank" class="whatsapp-button">Enviar mensaje</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Xavi Papas. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
